@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+    "extends": "react",
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "react/prop-types": 0,
+      "no-unused-vars": 0,
+      "no-restricted-globals": 0,
+      "camelcase": 0,
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
